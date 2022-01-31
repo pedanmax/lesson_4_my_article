@@ -1,0 +1,147 @@
+@import 'null.css'; 
+
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+
+@font-face {
+    font-family: 'Clarence Pro 001';
+    src: url('../fonts/ClarencePro-001.woff') format('woff2'),url('../fonts/ClarencePro-001.woff2') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    text-align: center;
+    font-family: 'Supermercado One', cursive;
+}
+
+header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    text-shadow: 10px 10px 30px rgb(202, 17, 17);
+}
+
+header .header__title {
+    color:red;
+}
+
+
+#content__history h2,#content__game-proces h2,#content__teams h2,#content__maps h2,#content__guns h2 {
+    font-family: 'Dongle', sans-serif;
+    font-size: 25px;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+#content__teams div.content__teams-text #content__teams-terrorist h3 {
+    text-decoration: line-through;
+    
+}
+#content__teams div.content__teams-text #content__teams-counter-terrorist p {
+    text-decoration: overline;
+}
+#content__teams p{
+    font-family: 'Dongle', sans-serif;
+    font-style: normal;
+}
+
+h2,h3 {
+    line-height: 2;
+}
+
+div p {
+    font-style: oblique;
+    line-height: 1.5;
+}
+
+
+ul li a {
+    color:orange;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.content__history-title,.content__game-proces-title,.content__teams-title,.content__maps-title,.content__guns-title {
+    color: green;
+}
+
+p.content__history-text {
+    color:saddlebrown;
+}
+
+#content__game-proces p {
+    color:wheat;
+}
+
+div.content__teams-terrorist-man p {
+    color: red;
+}
+
+#content__teams-terrorist h3{
+    color: sienna;
+}
+.content__teams-counter-terrorist-man p {
+    color:royalblue;
+}
+
+#content__teams-counter-terrorist h3 {
+    color: slateblue;
+}
+div#content__maps h3 {
+    font-size: 20px;
+}
+
+div.content__maps-dd2 h3.content__maps-dd2-title  {
+    color: coral;
+}
+
+.content__maps-dd2 p {
+    color:darkslategrey;
+}
+
+h3.content__maps-nuke-title, h3.content__maps-inferno-title, h3.content__maps-office-title {
+    color: coral;
+}
+
+.content__maps-nuke p {
+    color:darkred;
+}
+
+div.content__maps-inferno{
+    color: green;
+}
+
+.content__maps-office  {
+    color:darkslategray;
+}
+
+div#content__guns h3 {
+    font-size: 30px;
+}
+
+#content__guns p {
+    color:darkcyan;
+    font-style: normal;
+}
+
+footer {
+    font-family: 'Clarence Pro 001';
+}
+
+.footer .footer__title  {
+    text-transform: uppercase;
+    text-decoration: underline;
+    line-height: 2.5 ;
+    font-size: 20px;
+}
+.footer h2,h3 {
+    letter-spacing: 3px;
+}
+
+footer .footer__subtitle {
+    color:orangered;
+}
